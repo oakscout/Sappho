@@ -1,0 +1,238 @@
+
+.board { 
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: #FFF6EE;
+    z-index: 10;
+    overflow: hidden;
+}
+
+.logInMenu { 
+  background: linear-gradient(158.41deg, rgba(100, 100, 100, 0) 39.76%, rgba(100, 100, 100, 0.25) 62.3%, rgba(153, 65, 25, 0.76) 101.93%);
+  mix-blend-mode: normal;
+	width:40%;
+	height:100%;
+	position:absolute;
+	right:0px;
+	top:0px;
+  overflow: hidden;
+}
+
+.username { 
+	color:rgba(0, 0, 0, 1);
+	width:250px;
+	height:60px;
+	position:absolute;
+	left:68px;
+	top:268px;
+	font-family:Crimson Text;
+	text-align:left;
+	font-size:48px;
+	letter-spacing:0;
+  overflow: hidden;
+
+
+}
+.userBox { 
+	background-color:rgba(255, 255, 255, 1);
+	width:555px;
+	height:68px;
+	position:absolute;
+	left:68px;
+	top:355px;
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+  overflow: hidden;
+
+
+}
+.password { 
+	color:rgba(0, 0, 0, 1);
+	width:250px;
+	height:60px;
+	position:absolute;
+	left:68px;
+	top:450px;
+	font-family:Crimson Text;
+	text-align:left;
+	font-size:48px;
+	letter-spacing:0;
+  overflow: hidden;
+
+
+}
+.passBox { 
+	background-color:rgba(255, 255, 255, 1);
+	width:555px;
+	height:68px;
+	position:absolute;
+	left:68px;
+	top:537px;
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+  overflow: hidden;
+
+}
+
+.honestlyIdk { 
+	background-color:#646464;
+	width:229px;
+	height:82px;
+	position:absolute;
+	left:68px;
+	top:632px;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+  overflow: hidden;
+}
+
+.logInDown { 
+	color:rgba(255, 255, 255, 1);
+	
+	font-family:Crimson Text;
+	/*text-align:left;*/
+	font-size:48px;
+	letter-spacing:0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+
+  position: absolute;
+  width: 229px;
+  height: 70px;
+  left: 68px;
+  top: 632px;
+
+  background: #646464;
+  border-radius: 10px;
+  overflow: hidden;
+
+
+}
+
+.smallText { 
+/* Don’t have an account? Sign up */
+position: absolute;
+width: 488px;
+height: 71px;
+right: 190px;
+bottom: 0px;
+
+font-family: Crimson Text;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 50px;
+
+color: #646464;
+overflow: hidden;
+
+
+}
+
+.signUp { 
+	color:rgba(255, 246.0000005364418, 238.00000101327896, 1);
+	font-family:Crimson Text;
+	/*text-align:left;*/
+	font-size:48px;
+	letter-spacing:0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 10px;
+  position: absolute;
+  width: 198px;
+  height: 71px;
+  right: 69px;
+  top: 79px;
+
+  background: #646464;
+  border-radius: 10px;
+  overflow: hidden;
+
+
+}
+
+.logIn { 
+	color:#646464;
+
+	font-family:Crimson Text;
+	text-align:left;
+	font-size:48px;
+	letter-spacing:0;
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 10px;
+
+  position: absolute;
+  width: 142px;
+  height: 86px;
+  right: 284px;
+  top: 79px;  
+  overflow: hidden;
+
+
+}
+
+.moodBoard { 
+
+  position: absolute;
+  width: 1400px;
+  height: 1080px;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+
+}
+
+
+
+.description { 
+
+  position: absolute;
+  width: 500px;
+  height: 600px;
+  right: 30px;
+  top: 300px;
+
+  font-family: Crimson Text;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 66px;
+
+  color: #000000; 
+  
+
+}
+
+.logo { 
+  position: absolute;
+  left: 5.87%;
+  right: 66.49%;
+  top: 2.96%;
+  bottom: 74.03%;
+}
+
+.manImg { 
+  position: absolute;
+  left: 0%;
+  right: 32.99%;
+  top: 25.93%;
+  bottom: 0%;
+  overflow: hidden;
+}

@@ -4,5 +4,6 @@
 
 
 .logInMenu { 
-  background: linear-gradient(158.41deg, rgba(100, 100, 100, 0) 39.76%, rgba(100, 100, 100, 0.25) 62.3%, rgba(153, 65, 25, 0.76) 101.93%);
+  background:linear-gradient(143.54deg, rgba(100, 100, 100, 0) 35.58%, rgba(100, 100, 100, 0.16) 73.48%);
+  mix-blend-mode: normal;
 }

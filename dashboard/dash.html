@@ -6,134 +6,159 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Sappho</title>
         <!-- Boobie traps or whatever -->
-        <link rel="stylesheet" href="E:/Desk/Sappho/bootstrap-5.0.1-dist/css/bootstrap.css"/>
+        <link rel="stylesheet" href="../bootstrap-5.0.1-dist/css/bootstrap.css"/>
         <!-- Stylesheet homemade freshbaked chocolate chips -->
-        <link rel="stylesheet" href="dash.css" />
+        <link rel="stylesheet" href="../sass/dash.css" />
     </head>
 
     <body>
-        <div class="container-fluid" style="width: auto; height: auto; background-color: #FFF6EE">       
-            <nav class="navbar navbar-expand-lg navBar" style="background-color:#FFF6EE">
-                <div class="container-fluid">
-                <a class="navbar-brand ms-3" href="#">
-                    <img src="E:/Desk/Sappho/resources/OriginalLogoMaybeSmaller.png" alt="logo">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse ms-5" id="navbarText">
-                
-                        <ul class="navbar-nav me-auto">
-                        <li class="nav-item mt-4 ms-5">
-                            <a class="nav-link active font  fs-1" style="color:black;" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item  mt-4 ms-5">
-                            <a class="nav-link active font fs-1" style="color:black;" href="#">Profile</a>
-                        </li>
-                        <li class="nav-item  mt-4 ms-5">
-                            <a class="nav-link active font fs-1" style="color:black;" href="#">Discover</a>
-                        </li>
+        <div class="container-fluid p-0 m-0" style="width: auto; height: auto; background-color: #FFF6EE">       
+            <nav class="navbar navbar-expand-lg navBar px-5 pt-3" style="background-color:#FFF6EE">
+                <div class="container-fluid ms-5 mt-3">
+                    <a class="navbar-brand ms-5" href="#"> 
+                        <div class=logo>
+                            <img class="img-fluid ps-4" src="../resources/OriginalLogoMaybeSmaller.png" style="width: 75%" alt="logo">
+                        </div>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" 
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item me-5">
+                                <form class="d-flex mt-4 me-5">
+                                    <input class="form-control me-2 font fs-2" 
+                                    style="
+                                    height: 50px;
+                                    width: 350px;
+                                    border-top-left-radius:20px; 
+                                    border-top-right-radius:20px; 
+                                    border-bottom-left-radius:20px; 
+                                    border-bottom-right-radius:20px;" 
+                                    type="search" placeholder="Search" aria-label="Search">
+                                    <input  class="btTxt submit img-fluid mt-2" type="image" src="../resources/lupa.png" name="saveForm" style="height: 30px; width: 30px;"/>
+                                </form>
+                            </li>
                         </ul>
-                
-                        <form class="d-flex justify-content-end mt-4">
-                            <input class="form-control me-2 font fs-2" style="border-top-left-radius:20px; border-top-right-radius:20px; border-bottom-left-radius:20px; border-bottom-right-radius:20px;" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-secondary ms-3 font fs-2" style="border-top-left-radius:10px; border-top-right-radius:10px; border-bottom-left-radius:10px; border-bottom-right-radius:10px; background-color: white" type="submit">
-                                <img src="E:/Desk/Sappho/resources/lupa.png" alt="logo">
-                            </button>
-                        </form>
+                    </div>
                 </div>
-                </div>
-            </nav>
-        
-        
+              </nav>
 
-        <div class="col justify-content-start">
-            <div class="row justify-content-end">
-                <button class="btn btn-secondary ms-3 font fs-2" style="border-top-left-radius:10px; border-top-right-radius:10px; border-bottom-left-radius:10px; border-bottom-right-radius:10px; background-color: #55433B" type="submit">Create</button>
-            </div>
-            <div class="row justify-content-end">
-                <div class="card" style="width: 30rem;background-color: rgba(85.0000025331974, 67.00000360608101, 59.00000028312206, 0.25);">
-                    <div class="card-body">
-                    <h5 class="card-title">The Fedora: For My Father</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">author</h6>
-                        <p class="card-text">
-                            Beneath his stern visage, there was still a light in his eyes,<br> 
-                            becoming dimmed by circumstances seemingly beyond his control -<br> 
-                            he wore a Fedora with a black band of velvet, something soft<br> 
-                            to soothe his tumbling thoughts, perhaps. On those few days
-                        </p>
+              <hr class=" container-fluid justify-content-center" style="width:80%;text-align:left;margin-top: 0px;">
+            
+            <br>
+            <div class="container-fluid d-flex justify-content-center">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <div class="our_solution_category">
+                            <div class="solution_cards_box me-5">
+                                <div class="solution_card dessert">
+                                    <div class="brownie"><h3>Poem of the day</h3></div>
+                                    <div class="cookie">
+                                        <h3>Bride and Groom</h3>
+                                        <p>
+                                            He gives her her skin<br> 
+                                            He just seemed to pull it down out of the air and lay it over her<br> 
+                                            She weeps with fearfulness and astonishment<br> 
+                                            <br>
+                                            She has found his hands for him, and fitted them freshly at the wrists<br> 
+                                            They are amazed at themselves, they go feeling all over her<br> 
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="solution_card p-4">
+                                    <h3>How to Break a Curse</h3>
+                                    <p>
+                                        Lemon balm is for forgiveness.<br> 
+                                        Pull up from the root, steep<br> 
+                                        in boiling water. Add locusts’ wings,<br> 
+                                        salt, the dried bones of hummingbirds.<br> 
+                                        Drink when you feel ready.<br> 
+                                        Drink even if you do not.<br> 
+                                    </p>
+                                </div>
+                                <div class="solution_card p-4">
+                                    <h3>Dodging Rain</h3>
+                                    <p>
+                                        dew drops of rain drip from brows<br> 
+                                        beat by seeds of water<br> 
+                                        thrown down on dread head<br> 
+                                        and i shake whats loose<br> 
+                                        that join companions<br> 
+                                        far ahead down below<br> 
+                                        rushing to a much too distant cup<br> 
+                                        rejoicing being filled<br> 
+                                        from so far away away away<br> 
+                                        down yonder way over yonder<br> 
+                                        as i skip very nearly a jump into puddles<br> 
+                                        and small rivers that grow
+                                    </p>
+                                </div>
+                            </div>
+                            
+                            <div class="solution_cards_box">
+                                <div class="solution_card dessert">
+                                    <div class="marshmallow">
+                                        <div class="form-outline">
+                                            <textarea class="form-control marshmallowTitle ms-2 pt-3"  placeholder="Title" id="textAreaExample" rows="2"></textarea>
+                                        </div>
+                                     
+                                        <hr class="container-fluid ms-2 mt-4" style="width:90%;">
+                                            
+                                        <div class="form-outline">
+                                            <textarea class="form-control marshmallowPoem ms-2"  placeholder="Inhale. Exhale. Write" id="textAreaExample" rows="10"></textarea>
+                                        </div>
+                                    </div>
+                            
+                                    <button class="btn brownButton fs-3" type="submit">Create</button>
+                                
+                                </div>
+                                <div class="solution_card p-4">
+                                        <h3>Hillbilly Leviathan</h3>
+                                        <p>
+                                            The Ozarks are where defeated assassins, the unholy,<br>
+                                            and monsters come to retire.<br>
+                                            The proper soil and crooked moonlight grow back<br>
+                                            the disemboweled, the decapitated,<br>
+                                            while we collect arrears in child support for our demi-god children.<br>
+                                            <br>
+                                            The procession of taillights lined deep down the logging trails.<br>
+                                            Along the way, there was a gentleman arguing with his soul<br>
+                                            over his suicide.<br>
+                                            <br>
+                                            I, tongue of snakes.<br>
+                                            Cut up, dipped in powdered sugar,<br>
+                                            scattered to the ants in the deepest corner of Mt. Nebo<br>
+                                            as an insult, bind my ghost to the mountain.<br>
+                                        </p>
+                                </div>
+                                <div class="solution_card p-4">
+                                    <h3>Dance of the Palette</h3>
+                                    <p>
+                                        Dawn peeks over the horizon after Summer's night<br> 
+                                        and feels the early stillness of grass laden with dew,<br> 
+                                        and songbirds on green steps to heaven<br> 
+                                        that brush a rippling mirror.<br> 
+                                        The bluebird sings summer, but then<br> 
+                                        a whisper of wind swings down from a frosty sky<br> 
+                                        and rushes through tall swamp grasses<br> 
+                                        that cling together at the coolness.<br> 
+                                        <br> 
+                                        A flutter of wings fill a pine<br> 
+                                        as the songbirds spring in surprise<br> 
+                                        and silence their song at beginning notes<br> 
+                                        that follow the whispering wind,<br> 
+                                        and the wind wakes the oak from it's daze<br> 
+                                        and green answers the call and leaves in the waves<br> 
+                                        and Fall whispers, "Come".
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="row justify-content-end">
-                <div class="card" style="width: 30rem;background-color:rgba(85.0000025331974, 67.00000360608101, 59.00000028312206, 0.25);">
-                    <div class="card-body">
-                    <h5 class="card-title">Dance of the Palette</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">author</h6>
-                        <p class="card-text">
-                            Dawn peeks over the horizon after Summer's night<br> 
-                            and feels the early stillness of grass laden with dew,<br> 
-                            and songbirds on green steps to heaven<br> 
-                            that brush a rippling mirror.<br> 
-                            The bluebird sings summer, but then<br> 
-                            a whisper of wind swings down from a frosty sky<br> 
-                            and rushes through tall swamp grasses<br> 
-                            that cling together at the coolness.<br> 
-                            A flutter of wings fill a pine<br> 
-                            as the songbirds spring in surprise<br> 
-                            and silence their song at beginning notes<br> 
-                            that follow the whispering wind,<br> 
-                            and the wind wakes the oak from it's daze<br> 
-                            and green answers the call and leaves in the waves<br> 
-                            and Fall whispers, "Come".
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <div class="col justify-content-end">
-            <div class="row justify-content-start">
-                <div class="card" style="width: 30rem;background-color: rgba(85.0000025331974, 67.00000360608101, 59.00000028312206, 0.25);">
-                    <div class="card-body">
-                    <h5 class="card-title">Bride and Groom</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">author</h6>
-                        <p class="card-text">
-                            He gives her her skin<br> 
-                            He just seemed to pull it down out of the air and lay it over her<br> 
-                            She weeps with fearfulness and astonishment<br> 
-                            <br>
-                            She has found his hands for him, and fitted them freshly at the wrists<br> 
-                            They are amazed at themselves, they go feeling all over her<br> 
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row justify-content-start">
-                <div class="card" style="width: 30rem; background-color: rgba(85.0000025331974, 67.00000360608101, 59.00000028312206, 0.25);">
-                    <div class="card-body">
-                    <h5 class="card-title">Dodging Rain</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">author</h6>
-                        <p class="card-text">
-                            dew drops of rain drip from brows<br> 
-                            beat by seeds of water<br> 
-                            thrown down on dread head<br> 
-                            and i shake whats loose<br> 
-                            that join companions<br> 
-                            far ahead down below<br> 
-                            rushing to a much too distant cup<br> 
-                            rejoicing being filled<br> 
-                            from so far away away away<br> 
-                            down yonder way over yonder<br> 
-                            as i skip very nearly a jump into puddles<br> 
-                            and small rivers that grow
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-        
+        </div>               
     </body>
 </html>

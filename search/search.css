@@ -1,0 +1,38 @@
+
+.font{
+	font-family:Crimson Text;
+  }
+  
+
+.navBar { 
+    background: linear-gradient(180deg, rgba(85, 67, 59, 0.38) 0%, rgba(85, 67, 59, 0) 81.2%);
+  }
+ 
+  .solution_cards_box {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+  }
+  
+.solution_cards_box .solution_card {
+	flex: 0 50%;
+	font-family:Crimson Text;
+	font-size: large;
+	background: #d4c9c1;
+	box-shadow: 0 2px 4px 0 rgba(136, 144, 195, 0.2),
+	  0 5px 15px 0 rgba(37, 44, 97, 0.15);
+	border-radius: 15px;
+	margin-bottom: 30px;
+    margin-left: 4em;
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+	width: 60em;
+	min-height: 50px;
+	transition: 0.7s;
+  }
+
+  .foot { 
+    background: linear-gradient(180deg, #E6DFD8 23.12%, #FFF6EE 75.68%);
+    mix-blend-mode: normal;
+  }

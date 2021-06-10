@@ -137,4 +137,10 @@
 .form-control {
   border: 0;
 }
+
+.foot {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(23.12%, #E6DFD8), color-stop(75.68%, #FFF6EE));
+  background: linear-gradient(180deg, #E6DFD8 23.12%, #FFF6EE 75.68%);
+  mix-blend-mode: normal;
+}
 /*# sourceMappingURL=dash.css.map */

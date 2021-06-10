@@ -7,3 +7,9 @@
   background:linear-gradient(143.54deg, rgba(100, 100, 100, 0) 35.58%, rgba(100, 100, 100, 0.16) 73.48%);
   mix-blend-mode: normal;
 }
+
+
+.foot { 
+  background: linear-gradient(268.9deg, #E6DFD8 23.12%, #FFF6EE 75.68%);
+  mix-blend-mode: normal;
+}

@@ -11,7 +11,11 @@ html, body {
 
 
 .logInMenu { 
-  background:linear-gradient(143.54deg, rgba(100, 100, 100, 0) 35.58%, rgba(100, 100, 100, 0.132954) 62.67%, rgba(153, 65, 25, 0.3) 117.04%);
+  background: linear-gradient(143.54deg, rgba(100, 100, 100, 0) 35.58%, rgba(100, 100, 100, 0.16) 73.48%);
   mix-blend-mode: normal;;
 }
 
+.foot { 
+  background: linear-gradient(268.9deg, #E6DFD8 23.12%, #FFF6EE 75.68%);
+  mix-blend-mode: normal;
+}
